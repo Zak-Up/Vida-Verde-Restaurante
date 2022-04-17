@@ -592,6 +592,14 @@ img{
   color: var(--title-color)
 }
 
+/* ==== MAPS ===== */
+.google__maps{
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 /*========== MEDIA QUERIES ==========*/
 @media screen and (min-width: 576px){
@@ -622,7 +630,7 @@ img{
   }
   .btn-menu{
     margin-left: 180px;
-  } 
+  }
 
 }
 
@@ -711,8 +719,12 @@ img{
 }
 
 
-/* @media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .team-item{
     width: 100%;
+    padding: 60px;
 }
-} */
+  .btn-wsp{
+    margin-left: 120px;
+}
+}
